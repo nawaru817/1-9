@@ -4,3 +4,74 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.step {
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 15px;
+  padding: 1px;
+}
+
+.text-box:last-child {
+  margin-right: 0;
+}
+
+.text-box {
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaa;
+}
